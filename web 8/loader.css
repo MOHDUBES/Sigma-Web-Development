@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'gilroy';
+}
+body, html{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: yellowgreen;
+}
+#loader{
+    height: 100px;
+    width: 100px;
+    border: 10px solid red;
+    border-top: 10px solid blue;
+    border-radius: 50%;
+    animation: spin 1s infinite ;
+}
+@keyframes spin{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+/*loader css*/
