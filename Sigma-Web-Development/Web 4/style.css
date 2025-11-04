@@ -1,0 +1,41 @@
+td{
+    border: 1px solid black;
+}
+table{
+    border-collapse: collapse;
+}
+table, th, td {
+    padding: 10px;
+}
+th{
+    background-color: #7bf542;
+}
+tr:nth-child(even) {
+    background-color: #d30fc3;
+}
+tr:nth-child(odd) {
+    background-color: #42f5f5;
+}
+h1{
+    text-align: center;
+}
+body{
+    background-color: #f5f542;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: #ff0000;
+}
+button{
+    background-color: #42f5f5;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: #7bf542;
+    cursor: pointer;
+}
